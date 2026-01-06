@@ -24,7 +24,7 @@ public class EmailSendConsumer {
   )
   public void consume(String message) {
     
-    System.out.println("Kafka email send message" + message);
+    System.out.println("[Kafka Consumer] email send message" + message);
     
     EmailSendMessage emailSendMessage = EmailSendMessage.fromJson(message);
 
@@ -38,7 +38,7 @@ public class EmailSendConsumer {
       throw new RuntimeException("email send error", e);
     }
 
-    System.out.println("email send complete");
+    System.out.println("[Kafka Consumer] email send complete");
   }
   
 }
