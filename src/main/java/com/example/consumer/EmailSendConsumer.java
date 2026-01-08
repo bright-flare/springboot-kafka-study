@@ -11,7 +11,8 @@ public class EmailSendConsumer {
 
   @KafkaListener(
           topics = "email.send",
-          groupId = "email-send-group"
+          groupId = "email-send-group",
+          concurrency = "3" // kafka 컨슈머가 병렬적으로 메세지를 처리할 파티션의 수
   )
   @RetryableTopic(
           attempts = "5", // 총 시도 횟수
