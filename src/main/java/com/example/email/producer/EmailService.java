@@ -1,6 +1,6 @@
-package com.example.producer;
+package com.example.email.producer;
 
-import com.example.message.EmailSendMessage;
+import com.example.user.message.EmailSendMessage;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;

@@ -1,4 +1,4 @@
-package com.example.producer;
+package com.example.email.producer;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.PostMapping;

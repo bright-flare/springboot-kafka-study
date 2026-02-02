@@ -1,4 +1,4 @@
-package com.example.producer;
+package com.example.email.producer;
 
 public record SendEmailRequest(
         String from,

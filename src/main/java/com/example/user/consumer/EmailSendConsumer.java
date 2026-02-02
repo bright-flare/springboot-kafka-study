@@ -1,6 +1,6 @@
-package com.example.consumer;
+package com.example.user.consumer;
 
-import com.example.message.EmailSendMessage;
+import com.example.user.message.EmailSendMessage;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.kafka.annotation.RetryableTopic;
 import org.springframework.retry.annotation.Backoff;
