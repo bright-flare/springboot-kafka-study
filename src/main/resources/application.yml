@@ -16,7 +16,7 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       
-      # consumer group? ???? ?? ??? ??? ??? ???? ????. --from-beginning ???? ???.
+      # 처음부터 consumer group이 누락없이 메세지를 읽어오도록 설정
       auto-offset-reset: earliest
   h2:
     console:
