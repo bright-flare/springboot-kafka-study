@@ -1,0 +1,9 @@
+### 회원가입 API
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "email": "test@example.com",
+  "name": "심현섭",
+  "password": "password123"
+}
